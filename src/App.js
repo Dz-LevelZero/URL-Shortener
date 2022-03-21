@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import InputShortener from './components/InputShortener';
+import AnimatedBackground from './components/AnimatedBackground';
 
 function App() {
   const [inputValue, setInputValue] = useState("");
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="container">
       <InputShortener setInputValue={setInputValue} />
+      <AnimatedBackground />
     </div>
   );
 }
