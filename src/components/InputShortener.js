@@ -16,7 +16,7 @@ const InputShortener = ({ setInputValue }) => {
           type="text"
           placeholder="Enter the link here"
           value={value}
-          onChange={e => setValue(e.target.value)}  
+          onChange={(e) => setValue(e.target.value)}
         />
         <button onClick={handleClick}>Shorten URL</button>
       </div>
