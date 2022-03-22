@@ -1,3 +1,8 @@
+# URL Shortener
+![URL Shortener](https://i.imgur.com/1c5KCVh.png)
+
+Simple React  URL Shortener App using Shrtco-Api and react-copy-to-clipboard functionality
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
